@@ -8,86 +8,57 @@
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-       <link href="css/extras.css" rel="stylesheet">
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <script src="phonegap-2.9.0.js"></script>
+    <script src="phonegap.js"></script>
    
    
     
   </head>
   <body>
     
+    <div class="container-fluid">
+    	<div class="row">
+    	<div class="col-xs-12 col-sm-6">
+    	<ul>
+    		<li><a href="#" id="loc" class="add-location-btn">Add Location</a></li>
+    		<li><a href="#" id="pic" class="change-pic-btn">Take Picture</a></li>
 
-        
-        <div class="container-fluid">
-            	<div class="row">
-                
-                	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+    		</ul>
+    		<form role="form">
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputFile">File input</label>
+    <input type="file" id="exampleInputFile">
+    <p class="help-block">Example block-level help text here.</p>
+  </div>
+  <div class="checkbox">
+    <label>
+      <input type="checkbox"> Check me out
+    </label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
 
-                         <nav class="nav nav-stacked navbar-fixed-top">
-                        	<a href="#" class="logo"><img src="images/g-code-logo.jpg" /></a>
-                            
-                            <ul>
-                            	<li><a href="#">About <i class="fa fa-location-arrow"></i></a></li>
-                            </ul>
-                         </nav>	
+    	</div>
+    	<div class="col-xs-12 col-sm-6">
 
-                    </div>
-                   </div>
-                    
-                  <div class="row" style="margin-top:60px;">  
-                      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                            <select name="category" class="text-element" id="category">
-                                <option value="">Select Category</option>
-                                <option value="#Polling">Polling</option>
-                                <option value="#Security">Security</option>
-                                <option value="#Health">Health</option>
-                                <option value="#Flood">Flood</option>
-                                <option value="#Traffic">Traffic</option>
-                                <option value="#CivilDisturbance">Civil Disturbance</option>
-                              </select>
-                      </div>
-                      
-                       <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                       
-                            <div class="border-rad" id="pic">
-                            		
-                                <!--<center> <i class="fa-5x fa-camera"></i> </center>-->
-                                <center><img src="images/camera-icon.png" height="100px"></center>
-                            </div>
-                            
-                            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
-                                <textarea placeholder="Enter your Comment/Review" id="comment" rows="5" class="text-element1"> </textarea>
-                            </div>
-                            
-                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 ">
-                                <button class="btn btn-success text-btn" id="loc"><i class="fa fa-upload"></i> Send</button>
-                            </div>
-                            
-                          
-                           
-                           
-                           <img  src="images/g-code-logo2.png" class="border-rad" />
-                           
-                           <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                               <img src="images/g-code-logo2.png" class="border-rad" />
-                           </div>
-                           
-                           <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                               <img src="images/g-code-logo2.png" class="border-rad" />
-                           </div>
-                            
-                     </div>
-                      
-                  </div>
-                
-            	</div>
-      </div>
+<h4>h4. Bootstrap heading <small>Secondary text</small></h4>
+    	</div>
+  
+</div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
