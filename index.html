@@ -59,7 +59,7 @@ $("#loc").click( function() {
     console.log('addLocation');
     navigator.geolocation.getCurrentPosition(
         function(position) {
-           // $('.location', this.el).html(position.coords.latitude + ',' + position.coords.longitude);
+           $('.location', this.el).html(position.coords.latitude + ',' + position.coords.longitude);
             alert(position.coords.latitude + ',' + position.coords.longitude);
 
 
